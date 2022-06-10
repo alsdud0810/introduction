@@ -636,7 +636,7 @@ textarea {
     /* background-color: orange; */
     position: relative;
     margin: 0 auto;
-    
+    padding: 0;
   }
   .company-overview .inner .description-group .image-group img.logo {
     justify-content: center;
@@ -680,6 +680,7 @@ textarea {
   }
   .management-philosophy .inner .description-group .image-group {
     margin: 0 auto;
+    padding: 0;
   }
   .management-philosophy .inner .description-group .text-group {
     width: 100%;
