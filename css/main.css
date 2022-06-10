@@ -606,7 +606,8 @@ textarea {
   header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li {
   }
   header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li a {
-    width: 160px; /*임의지정*/
+    max-width: 150px; /*임의지정*/
+    font-size: 15px;
   }
 
   /* INTRODUCTION */
