@@ -604,9 +604,11 @@ textarea {
     width: 100%;
   }
   header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li {
+    padding: 20px 0;
   }
   header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li a {
-    max-width: 150px; /*임의지정*/
+    position: relative;
+    width: 100%; /*임의지정*/
     font-size: 15px;
   }
 
