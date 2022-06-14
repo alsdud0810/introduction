@@ -16,7 +16,7 @@ a {
 hr {
   max-width: 1100px;
   height:5px;
-  background-color: midnightblue;
+  background-color: rgb(69, 48, 138);
   
 }
 
@@ -33,7 +33,7 @@ hr {
   font-size: 45px;
   margin: 4px 0 0;
   padding: 10px 0 60px 0;
-  color: midnightblue;
+  color: rgb(69, 48, 138);
 }
 
 /*BACK TO POSITION*/
@@ -164,7 +164,7 @@ header .inner2 {
 }
 
 header .inner2 .title-wrapper {
-  background-color: midnightblue;
+  background-color: rgb(69, 48, 138);
   /* background-image: url(../back.jpg); */
   height: 500px;
   position: relative;
@@ -471,7 +471,7 @@ header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li a:hover {
 .vision .inner .text-group p {
   text-align: center;
   font-size: 22px;
-  color: mediumblue;
+  color: #6A5ACD;
   font-weight: 700;
   line-height: 150%;
 }
@@ -706,11 +706,32 @@ textarea {
   }
 
   /* VISION */
+  .vision .inner {
+    
+  }
   .vision .inner .title-group h1{
     font-size: 30px;
   }
+  .vision .inner .text-group{
+    display: block;
+  }
   .vision .inner .text-group p {
     font-size: 20px;
+  }
+  .vision .inner ul.vision {
+    display: block;
+    flex-direction: column;
+  }
+  .vision .inner ul.vision > li {
+    display: block;
+    margin: 0 auto;
+  }
+  .vision .inner ul.vision > li img {
+    max-width: 270px;
+    max-height: 243px;
+  }
+  .vision .inner ul.vision > li .text-group {
+    display: block;
   }
 
 }
